@@ -1,0 +1,176 @@
+2016-05-17 11:19:56 [scrapy] INFO: Scrapy 1.1.0 started (bot: XiCiScrapy)
+2016-05-17 11:19:56 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'XiCiScrapy.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['XiCiScrapy.spiders'], 'LOG_ENCODING': None, 'BOT_NAME': 'XiCiScrapy', 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:46.0) Gecko/20100101 Firefox/46.0', 'LOG_FILE': 'scrapy.log'}
+2016-05-17 11:19:56 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2016-05-17 11:19:57 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-05-17 11:19:57 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-05-17 11:19:57 [scrapy] INFO: Enabled item pipelines:
+['XiCiScrapy.pipelines.XiciscrapyPipeline']
+2016-05-17 11:19:57 [scrapy] INFO: Spider opened
+2016-05-17 11:19:57 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-05-17 11:19:57 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-05-17 11:19:57 [scrapy] DEBUG: Crawled (200) <GET http://www.xicidaili.com/robots.txt> (referer: None)
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/1> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/3> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/2> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/4> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/6> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/5> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/7> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/8> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/9> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/10> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/11> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/12> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/13> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/14> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/15> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:57 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/16> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/1> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/3> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/2> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/4> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/7> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/8> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/9> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/10> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/5> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/12> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/13> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/14> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/15> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/11> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/1> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/1> (referer: None)
+2016-05-17 11:19:58 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/3> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/3> (referer: None)
+2016-05-17 11:19:58 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/2> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/2> (referer: None)
+2016-05-17 11:19:58 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/1>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:58 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/4> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:58 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/4> (referer: None)
+2016-05-17 11:19:58 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/3>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/16> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/2>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/4>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/6> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/9> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/9> (referer: None)
+2016-05-17 11:19:59 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/10> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/10> (referer: None)
+2016-05-17 11:19:59 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/9>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/7> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/7> (referer: None)
+2016-05-17 11:19:59 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/12> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/12> (referer: None)
+2016-05-17 11:19:59 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/10>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/7>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/12>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/5> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/5> (referer: None)
+2016-05-17 11:19:59 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/11> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/11> (referer: None)
+2016-05-17 11:19:59 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/8> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/8> (referer: None)
+2016-05-17 11:19:59 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/17> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/5>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/11>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/14> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/14> (referer: None)
+2016-05-17 11:19:59 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/8>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/19> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/15> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/15> (referer: None)
+2016-05-17 11:19:59 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/20> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/14>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/16> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/16> (referer: None)
+2016-05-17 11:19:59 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/15>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/13> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/13> (referer: None)
+2016-05-17 11:19:59 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/6> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/6> (referer: None)
+2016-05-17 11:19:59 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/16>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/21> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/13>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/22> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/6>: HTTP status code is not handled or not allowed
+2016-05-17 11:19:59 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/23> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:19:59 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/24> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/25> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/18> (failed 1 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/17> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/19> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/20> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/21> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/22> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/23> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/24> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/25> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Retrying <GET http://www.xicidaili.com/nn/18> (failed 2 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/17> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/17> (referer: None)
+2016-05-17 11:20:00 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/19> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/19> (referer: None)
+2016-05-17 11:20:00 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/20> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/20> (referer: None)
+2016-05-17 11:20:00 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/17>: HTTP status code is not handled or not allowed
+2016-05-17 11:20:00 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/21> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/21> (referer: None)
+2016-05-17 11:20:00 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/19>: HTTP status code is not handled or not allowed
+2016-05-17 11:20:00 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/22> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/22> (referer: None)
+2016-05-17 11:20:00 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/20>: HTTP status code is not handled or not allowed
+2016-05-17 11:20:00 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/21>: HTTP status code is not handled or not allowed
+2016-05-17 11:20:00 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/23> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/23> (referer: None)
+2016-05-17 11:20:00 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/22>: HTTP status code is not handled or not allowed
+2016-05-17 11:20:00 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/24> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/24> (referer: None)
+2016-05-17 11:20:00 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/25> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/25> (referer: None)
+2016-05-17 11:20:00 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/23>: HTTP status code is not handled or not allowed
+2016-05-17 11:20:00 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/24>: HTTP status code is not handled or not allowed
+2016-05-17 11:20:00 [scrapy] DEBUG: Gave up retrying <GET http://www.xicidaili.com/nn/18> (failed 3 times): 503 Service Unavailable
+2016-05-17 11:20:00 [scrapy] DEBUG: Crawled (503) <GET http://www.xicidaili.com/nn/18> (referer: None)
+2016-05-17 11:20:00 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/25>: HTTP status code is not handled or not allowed
+2016-05-17 11:20:01 [scrapy] DEBUG: Ignoring response <503 http://www.xicidaili.com/nn/18>: HTTP status code is not handled or not allowed
+2016-05-17 11:20:01 [scrapy] INFO: Closing spider (finished)
+2016-05-17 11:20:01 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 19662,
+ 'downloader/request_count': 76,
+ 'downloader/request_method_count/GET': 76,
+ 'downloader/response_bytes': 31455,
+ 'downloader/response_count': 76,
+ 'downloader/response_status_count/200': 1,
+ 'downloader/response_status_count/503': 75,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 5, 17, 3, 20, 1, 31000),
+ 'log_count/DEBUG': 127,
+ 'log_count/INFO': 7,
+ 'response_received_count': 26,
+ 'scheduler/dequeued': 75,
+ 'scheduler/dequeued/memory': 75,
+ 'scheduler/enqueued': 75,
+ 'scheduler/enqueued/memory': 75,
+ 'start_time': datetime.datetime(2016, 5, 17, 3, 19, 57, 29000)}
+2016-05-17 11:20:01 [scrapy] INFO: Spider closed (finished)
